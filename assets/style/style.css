@@ -1,0 +1,226 @@
+.red_btn {
+    border-radius: 10px;
+    border: none;
+    background-color: #AE3233;
+    color: white;
+}
+
+.main_them_text{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* Nav */
+.navbar {
+    border-bottom: 2px solid rgba(174, 50, 51, 0.5);
+}
+.top_main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.small_link{
+    padding-right: 12.5px;
+}
+.main_link {
+    text-decoration: none;
+    color: #AE3233;
+    padding-right: 48px;
+}
+.language {
+    padding-right: 20px;
+}
+
+.navBar_menu {
+    padding-top: 45px;
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+.navBar_menu li{
+    display: inline; 
+    padding-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #4A4A4A;
+}
+
+
+.diet_btn {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 13px 79px;
+    border-radius: 10px;
+    border: 1px solid #AE3233;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+}
+.diet_btn:hover {
+    background-color: #AE3233;
+    color: white;
+    transition: 0.25s;
+}
+
+
+
+/* Baner */
+.baner {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid #AE3233;;
+}
+.baner_content {
+    display: flex;
+    justify-content: space-between;
+}
+.baner_header {
+    padding-left: 50px;
+    display: inline;
+    font-size: 18px;
+    font-weight: 500;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.baner_link {
+    padding-right: 50px;
+    text-decoration: none;
+    color: #AE3233;
+}
+.baner_link:hover {
+    color: black;
+}
+.baner_link span p {
+    display: inline;
+    padding-right: 12px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* Introduction */
+
+.introduction {
+    padding-top: 50px;
+}
+.intro_header {
+    padding-top: 30px;
+    font-size: 48px;
+    font-weight: 500;
+}
+.intro_text{
+    padding-top: 20px;
+}
+.exp {
+    padding-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pointOfExp {
+    width: 50%;
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+.pointOfExp img   {
+    display: inline;
+    padding: 0px;
+}
+.PointOfExp_content {
+    display: inline-block;
+    padding-left: 12px;
+}
+.PointOfExp_content h4 {
+    color: #AE3233;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.PointOfExp_content p {
+    padding-top: 2px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.pointOfExp1 {
+    background: url(/img/measure1.png) left center no-repeat ;
+    padding-left: 72px;
+} 
+.pointOfExp2 {
+    background: url(/img/measure2.png) left center no-repeat ;
+    padding-left: 72px;
+} 
+.pointOfExp3 {
+    background: url(/img/measure3.png) left center no-repeat ;
+    padding-left: 72px;
+} 
+.pointOfExp4 {
+    background: url(/img/measure4.png) left center no-repeat ;
+    padding-left: 72px;
+} 
+
+/* Who Is it */
+
+.whoIsit {
+    padding-top: 80px;
+}
+
+.who {
+    padding-top: 71px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #AE3233;
+}
+.who_header {
+    padding-top: 20px;
+    padding-bottom: 24px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.whoText {
+    padding-top: 24px;
+}
+.moreAboutLink {
+    text-decoration: none;
+}
+.moreAbout p  {
+ display: inline;
+ text-decoration: none;
+ color: #AE3233;
+ font-size: 22px;
+ font-weight: 500;
+ padding-right: 18px;
+}
+.moreAbout p:hover {
+    color:black;
+}
+
+/* OFER */
+
+.ofer {
+    margin-top: 130px;
+    background-color: #191919;
+}
+.best_ofer, .ofer_header,.ofer_text {
+    color:white
+}
+.best_ofer {
+    font-size: 30px;
+    padding-top: 27px;
+}
+.ofer_header {
+    padding-top: 24px;
+    font-size: 48px;
+}
+.ofer_text {
+    padding-top: 24px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.ofer_btn {
+    margin-top: 40px;
+    padding: 13px 85px;
+}
