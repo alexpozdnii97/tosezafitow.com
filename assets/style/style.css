@@ -146,19 +146,19 @@
     margin-bottom: 0px;
 }
 .pointOfExp1 {
-    background: url(/img/measure1.png) left center no-repeat ;
+    background: url(../img/measure1.png) left center no-repeat ;
     padding-left: 72px;
 } 
 .pointOfExp2 {
-    background: url(/img/measure2.png) left center no-repeat ;
+    background: url(../img/measure2.png) left center no-repeat ;
     padding-left: 72px;
 } 
 .pointOfExp3 {
-    background: url(/img/measure3.png) left center no-repeat ;
+    background: url(../img/measure3.png) left center no-repeat ;
     padding-left: 72px;
 } 
 .pointOfExp4 {
-    background: url(/img/measure4.png) left center no-repeat ;
+    background: url(../img/measure4.png) left center no-repeat ;
     padding-left: 72px;
 } 
 
@@ -208,11 +208,10 @@
     color:white
 }
 .best_ofer {
-    font-size: 30px;
-    padding-top: 27px;
+    padding-top: 84px;
 }
 .ofer_header {
-    padding-top: 24px;
+    padding-top: 50px;
     font-size: 48px;
 }
 .ofer_text {
@@ -223,4 +222,216 @@
 .ofer_btn {
     margin-top: 40px;
     padding: 13px 85px;
+}
+
+
+/* author */
+
+.author {
+    padding-top: 130px;
+    padding-left: 152px;
+    padding-right: 152px;
+}
+.author_header, .author_text {
+    text-align: center;
+}
+.author_text {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.author_header {
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.about {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.about_link {
+    width: 33%;
+    background: url(../img/Border.png) center center no-repeat;
+    background-size: contain;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.about_link h3 {
+    padding-top: 76px;
+    padding-bottom: 16px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.about_text {
+    padding-bottom: 24;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.white_text {
+    color: white;
+    display: inline;
+    padding-right: 12px;
+}
+.about_points {
+    padding-bottom: 24px;
+}
+.about_points:hover {
+    background-color: #AE3233;
+    color: white;
+    transition: 0.25s;
+    border-radius: 20px;
+}
+
+
+/* book */
+.book {
+    margin-top: 158px;
+}
+.lineAnbСircleAfterText, .lineAnbСircle  {
+    display: inline;
+}
+.lineAnbСircleAfterText {
+    padding-left: 28px;
+    font-size: 20px;
+}
+
+
+
+/* Partnership */
+
+.partnership {
+    background-color: black;
+    margin-top: 130px;
+    padding-top: 50px;
+    padding-bottom: 49px;
+    padding-left: 153px;
+    padding-right: 153px;
+}
+
+.partner_header {
+    position: absolute;
+    left: 050%;
+    transform: translateX(-50%);
+    padding-top: 25px;
+}
+
+.partners {
+    padding-top: 142px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* suporters */
+.saporters_box {
+    font-size: 30px;
+    padding-top: 39px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.suporters_header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.saporters {
+    display: flex;
+    justify-content: space-between;
+
+}
+.sab_saports {
+    padding-top: 56px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid rgba(174, 50, 51, 1);
+}
+.saporters_text {
+    font-size: 18px;
+}
+.saport_btn {
+    font-size: 18px;
+    padding: 17px 75px;
+}
+
+/* footer */
+
+footer {
+    padding-top: 150px;
+}
+.bot_footer {
+    margin-top: 44px;
+}
+.top_footer {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 23px;
+    padding-bottom: 15px;
+}
+.top_footer_text {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.soc_link {
+    display: block;
+    text-decoration: none;
+    color: #4A4A4A;
+    padding-top: 30px;
+    font-size: 18px;
+    padding-left: 45px; 
+    padding-bottom: 5px;
+}
+.soc_link:hover {
+    color: black;
+    transition: 0.25s;
+}
+.soc_link1 {
+    background: url(../img/instagram_icon.svg) left bottom no-repeat;
+}
+.soc_link2 {
+    background: url(../img/email.svg) left  bottom no-repeat;
+}
+
+.footer_nav {
+    list-style: none;
+    padding-top: 10px;
+}
+.footer_nav li {
+    font-size: 18px;
+    font-weight: 500;
+    color: #4A4A4A;
+    padding-bottom: 22px;
+}
+
+.bot_footer_text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer_btn {
+    padding: 12px 44px;
+    margin-top: 15px;
+    float: right;
+}
+
+.footer_end_text {
+    color: #4A4A4A;
+    padding-top: 96px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.end_heade{
+    text-align: center;
+}
+.end_logo {
+    position: relative;
+    text-align: center;
+}
+.end_heade {
+    padding-top: 18px;
+    font-size: 18px;
+}
+.name {
+    color: #AE3233;
 }
