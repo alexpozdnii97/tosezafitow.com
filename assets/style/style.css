@@ -1,10 +1,20 @@
+html, body {
+    overflow-x: hidden;
+}
+
+
 .red_btn {
     border-radius: 10px;
     border: none;
     background-color: #AE3233;
     color: white;
 }
-
+.red_btn:hover {
+    background-color: white;
+    border: 1px solid #AE3233;
+    transition: 0.7s;
+    color: black;
+}
 .main_them_text{
     font-size: 18px;
     font-weight: 300;
@@ -54,10 +64,8 @@
     padding: 13px 79px;
     border-radius: 10px;
     border: 1px solid #AE3233;
-    text-align: center;
     font-size: 18px;
     font-weight: 400;
-    align-items: center;
 }
 .diet_btn:hover {
     background-color: #AE3233;
@@ -65,6 +73,9 @@
     transition: 0.25s;
 }
 
+
+
+/* Burger */
 
 
 /* Baner */
@@ -76,13 +87,13 @@
 .baner_content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .baner_header {
     padding-left: 50px;
     display: inline;
     font-size: 18px;
     font-weight: 500;
-    align-items: center;
     margin-bottom: 0px;
 }
 .baner_link {
@@ -162,10 +173,22 @@
     padding-left: 72px;
 } 
 
+.main_photo {
+    width: 100%;
+    object-fit:cover;
+}
+.main_photo_swiched, .swichtext {
+    display: none;
+}
+
 /* Who Is it */
 
 .whoIsit {
     padding-top: 80px;
+}
+.whoIsTose_photo {
+    width: 100%;
+    object-fit: cover;
 }
 
 .who {
@@ -223,7 +246,9 @@
     margin-top: 40px;
     padding: 13px 85px;
 }
-
+.mobile_man {
+    display: none;
+}
 
 /* author */
 
@@ -322,13 +347,16 @@
     display: flex;
     justify-content: space-around;
 }
+.partner {
+    width: 32%;
+}
 
 /* suporters */
 .saporters_box {
     font-size: 30px;
     padding-top: 39px;
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .suporters_header {
     text-align: center;
@@ -368,7 +396,7 @@ footer {
     padding-top: 23px;
     padding-bottom: 15px;
 }
-.top_footer_text {
+.top_footer_text,.top_footer_text_swich {
     color: white;
     font-size: 20px;
     margin-bottom: 0px;
@@ -434,4 +462,393 @@ footer {
 }
 .name {
     color: #AE3233;
+}
+
+.end_log_swiched,.footer_end_text_swiched {
+    display: none;
+}
+
+.top_footer_text_swich,.top_footer_img_swich {
+    display: none;
+}
+/* Media */
+@media (max-width:1800px) {
+    .saporters {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width:1400px) {
+    .pointOfExp {
+        padding-top: 10px;
+    }
+    .main_photo {
+        padding-top: 50px;
+    }
+    .whoIsTose_photo  {
+        padding-top: 40px;
+    }
+
+    .who {
+        padding-top: 35px;
+    }
+
+
+    .best_ofer {
+        padding-top: 30px;
+    }
+
+    .ofer_header {
+        padding-top: 20px;
+    }
+    .ofer_text {
+        padding-top: 24px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .ofer_btn {
+        margin-top: 25px;
+        padding: 13px 85px;
+        margin-bottom: 20px;
+    }
+
+
+
+    .author {
+        padding-top: 130px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .author_text {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+    .navBar_menu li{
+        padding-right: 25px;
+    }
+    
+    
+    .diet_btn {
+        padding: 13px 60px;
+    }
+
+
+    .main_photo {
+        padding-top: 175px;
+    }
+    .whoIsTose_photo  {
+        padding-top:40px ;
+    }
+
+    .saport_btn {
+        padding: 17px 50px;
+    }
+
+
+}
+@media (max-width:992px) {
+
+    .instaLink {
+        display: none;
+    }
+    .diet_btn {
+    padding: 17px 100px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    }
+    .navBar_menu li {
+        padding-right: 25px;
+
+    }
+    .navBar_menu {
+        padding-bottom: 55px;
+    }
+
+
+
+    .baner_header {
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+    .baner_link {
+        padding-left: 20px;
+        text-decoration: none;
+        color: #AE3233;
+    }
+    .main_photo {
+        padding-top: 0px;
+        display: none;
+    }
+    .whoIsTose_photo  {
+        padding-top: 20px;
+    }
+    .men {
+        display: none;
+    }
+    .main_photo_swiched, .swichtext {
+        display: block;
+    }
+    .main_photo_swiched {
+        width: 100%;
+        object-fit: cover;
+    }
+    .norm_text {
+        display: none;
+    }
+
+    .book  {
+        margin-top: 50px;
+    }
+
+
+    .partnership {
+        padding-left: 53px;
+        padding-right: 53px;
+    }
+
+    .ofer {
+        margin-top: 50px;
+        background-color: #191919;    
+        text-align: center;
+        z-index:1;
+    }
+    .best_ofer, .ofer_header,.ofer_text {
+        color:white
+    }
+    .ofer_content {
+        background: url(../img/Men.png) center center no-repeat;
+        background-size: contain;
+    }
+    .best_ofer {
+        padding-top: 50px;
+    }
+    .ofer_header {
+        padding-top: 35px;
+    }
+    .ofer_text {
+        padding-top: 25px;
+    }
+    .ofer_btn {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding: 13px 85px;
+    }
+    .sab_saports {
+        text-align: center;
+    }
+
+
+
+
+    .footer_logo {
+        text-align: center;
+    }
+    .bot_footer_text {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .footer_btn {
+        text-align: center;
+    }
+    .footer_end_text {
+        padding-top: 30px;
+        text-align: center;
+    }
+    .end_log_swiched,.footer_end_text_swiched {
+        display: block;
+    }
+     .footer_end_text_none {
+        display: none;
+    }
+    .footer_end_text_swiched {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .baner_link {
+        display: none;
+    }
+    .baner_header {
+        font-size: 12px;
+        padding-left: 0px;  
+        display: block;
+        text-align: center;
+    } 
+    .diet_btn {
+        display: none;
+    }
+    .intro_header, .who_header, .ofer_header, .about_points h3, .author_header {
+        font-size: 28px;
+    }
+    .PointOfExp_content h4 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .PointOfExp_content p {
+        font-size: 18px;
+    }
+    .exp {
+        flex-wrap: wrap;
+    }
+    .pointOfExp {
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .about {
+        padding-top: 30px;
+        flex-wrap: wrap;
+    }
+    .about_link {
+        width: 100%;
+        margin-top:30px;
+    }
+
+    .book {
+        margin-bottom: 50px;
+    }
+
+
+    .partnership {
+        padding-left: 153px;
+        padding-right: 153px;
+    }
+    .partners {
+        padding-top: 70px;
+        flex-wrap: wrap;
+    }
+    .partner {
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    .saporters_box {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+
+    .top_footer_img,.top_footer_text {
+        display: none;
+    }
+    .top_footer_text_swich, .top_footer_img_swich {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .top_footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .top_footer_img_swich {
+        width: 15%;
+    }
+
+    .footer_logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        padding-bottom: 25px;
+    }
+    .soc_link {
+        padding-top: 110px;
+        display: inline;
+    }
+    .soc_link1 {
+        float: left;
+    }
+    .soc_link2 {
+        float: right;
+    }
+    .footer_nav {
+        padding-top: 55px;
+    }
+}
+
+@media (max-width:576px) {
+    p,a {
+        font-size: 14px;
+    }
+    .soc_link1 {
+        margin-left: 10px;
+    }
+    .soc_link2 {
+        margin-right: 10px;
+        margin-bottom: 40px;
+    }
+    .footer_nav {
+        text-align: center;
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+    .author {
+        padding-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .author_text {
+        margin-bottom: 0px;
+    }
+    .about_points {
+        padding-bottom: 5px;
+        padding-bottom: 5px;
+
+    }
+    .about_points h3 {
+        padding-top: 10px;
+    }
+    .book_img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .saporter {
+        text-align: center;
+    }
+
+    .partnership {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .partners {
+        padding-top: 100px;
+    }
+    .partners img {
+        width: 100%;
+    }
+}
+
+@media (max-width:408px) {
+    .saporters {
+        display: inline;
+    }
+}
+@media (max-width:390px) {
+    .soc_link  {
+        float: none;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0;
+    }
+    .soc_link1 {
+        padding-top: 150px;
+    }
+    .soc_wraper {
+        position: relative;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
 }
