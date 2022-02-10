@@ -45,7 +45,12 @@ a:hover {
 .language {
     padding-right: 20px;
 }
-
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #AE3233;
+}
+.nav-pills .nav-link {
+    color: black;
+}
 .navBar_menu {
     padding-top: 45px;
     list-style: none;
@@ -1024,8 +1029,9 @@ footer {
     }
     .footer_nav {
         text-align: center;
-        padding-top: 0px;
+        padding: 0px;
         margin-bottom: 0px;
+        
     }
     .author {
         padding-top: 100px;
