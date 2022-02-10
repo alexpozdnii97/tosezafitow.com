@@ -57,9 +57,12 @@ a:hover {
     padding-right: 50px;
     font-size: 18px;
     font-weight: 500;
-    color: #4A4A4A;
 }
-.navBar_menu li:hover {
+.navBar_menu a {
+    color: #4A4A4A;
+    text-decoration: none;
+}
+.navBar_menu a:hover {
     color: black;
     transition: 0.2s;
     cursor:default;
