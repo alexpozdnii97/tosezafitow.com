@@ -1172,16 +1172,30 @@ footer {
   padding-top: 20px;
 }
 .detoxification {
+  height: 191px;
   background: url(../img/deToxPhoto.png) center center no-repeat;
-  background-size: cover;
+  background-size: 130%;
+  width: 100%;
+  height: auto;
+  position: relative;
   text-align: center;
-  padding-top: 20px;
+  margin-top: 20px;
+}
+.detoxification .detoxImg {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
 }
 .detoxification .deToxHeader {
-  padding-top: 21px;
+  padding-top: 15px;
+  margin-bottom: 0px;
+  font-size: 30px;
 }
 .detoxification .deToxText {
   padding: 12px 120px 0px 120px;
+  margin-bottom: 0px;
 }
 .detoxification .deToxBtn {
   margin: 12px 0px  21px 0px;
@@ -1336,8 +1350,8 @@ footer {
     padding-right: 0px;
   }
   .detoxification {
-    background: url(../img/deToxPhoto.png) center center no-repeat;
-    background-size: contain;
+    background: url(../img/deToxPhoto.png) top center no-repeat;
+    background-image: contain;
     text-align: center;
     padding-top: 20px;
   }
@@ -1369,7 +1383,7 @@ footer {
   .trainWitTose {
     background-size: contain;
     margin-top: 50px;
-    margin-bottom: 140px;
+    margin-bottom: 40px;
   }
   .trainWitTose .trainWitToseHeader {
     padding-top: 40px;
@@ -1407,6 +1421,19 @@ footer {
   .subBlogSection .subBlogItem .subBlogImg {
     width: 100%;
     object-fit: contain;
+  }
+  .detoxification {
+    background: url(../img/deToxMobile.png) center center no-repeat;
+    background-size: cover;
+  }
+  .detoxification .deToxBtn {
+    padding: 13px 58px;
+  }
+  .detoxification .deToxHeader {
+    font-size: 20px;
+  }
+  .detoxification .deToxText {
+    font-size: 16px;
   }
   .olimpia {
     margin-top: 75px;
