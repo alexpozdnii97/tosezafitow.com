@@ -1814,6 +1814,9 @@ footer {
     .SuBlogPostHead {
         padding-top: 60px;
     }
+    .SuBlogPostHeadDesctop {
+        display: none;
+    }
     .subBlogPostItem {
         width: 50%;
         padding-right: 10px;
@@ -1824,5 +1827,93 @@ footer {
     .subBlogImg {
         width: 100%;
         object-fit: cover;
+    }
+}
+
+
+
+
+// Interview
+.blogInterviewImg {
+    width: 100%;
+    object-fit: cover;
+}
+.subBlogIntervieHeader {
+    margin-bottom: 56px;
+}
+.SuBlogIntervieHead {
+    display: none;
+}
+.blogPostHeader {
+    color: #AE3233;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+.intervieName {
+    font-weight: 500;
+}
+
+
+.maylaAsh {
+    border-bottom: 2px solid #AE3233;
+    padding-bottom: 60px;
+}
+.maylaAshMedia {
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 60px;
+    .socialProfil {
+        background: url(../img/MaylaAsh.png) left center no-repeat;
+        .socialProfilText {
+            font-size: 16px;
+            font-weight: 400;
+            color: #282828;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 70px;
+        }
+        .maylaSocialImg {
+            padding-right: 5px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}
+.AshPhotos {
+    flex-wrap: wrap;
+    padding-top: 40px;
+    .AshPhoto {
+        width: 25%;
+        padding:5px;
+    }
+}
+.maylaAshMobile {
+    display: none;
+}
+@media (max-width:992px) {
+    .SuBlogIntervieHead {
+        display: block;
+    }
+    .maylaAshMobile {
+        display: block;
+        .AshPhoto {
+            width: 50%;
+        }
+    }
+    .maylaAshDesctop {
+        display: none;
+    }
+    .SuBlogPostHeadDesctop {
+        display: none;
+    }
+}
+@media (max-width:567px) {
+    .maylaAshDesctop {
+        justify-content: space-around;
+    }
+    .socialProfilText{
+        padding-left: 0px;
     }
 }
