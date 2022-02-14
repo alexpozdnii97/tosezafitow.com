@@ -17,7 +17,19 @@ if (window.matchMedia("(max-width: 992px)").matches) {
 } 
 
 $(document).ready(function() {
-    $('.tableNav').click(function(event) {
-        $('.sabMenu,.tableOfContentArrow').toggleClass('active')
+    $('.categoriTabsInterviews').click(function(event) {
+        $('.categori_sab_sab_menuInterviews,.categoriTabsImgInterviews').toggleClass('active')
+    })
+})
+
+$(document).ready(function() {
+    $('.categoriTabsFitness').click(function(event) {
+        $('.categori_sab_sab_menuFitness,.categoriTabsImgFitness ').toggleClass('active')
+    })
+})
+
+$(document).ready(function() {
+    $('.categoriTabsFitnessNews').click(function(event) {
+        $('.categori_sab_sab_menuFitnessNews,.categoriTabsImgFitnessNews ').toggleClass('active')
     })
 })

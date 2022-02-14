@@ -1348,6 +1348,40 @@ footer {
 
 .categoriesList {
     border-top: 2px solid #AE3233;
+    padding-top: 22px;
+    .categori_menu {
+        line-height: 40px;
+    }
+    li {
+        list-style: none;
+        display: inline;
+        cursor:pointer;
+    }
+    a {
+        text-decoration: none;
+        color: #282828;
+        font-weight: 300;
+        &:hover {
+            color: #AE3233;
+            transition: 0.2s;
+        }
+    }
+    .categori_sab_menu {
+        font-size: 18px;
+    }
+    .categoriTabs {
+        align-items: center;
+    }
+    .categori_sab_sab_menuInterviews, .categori_sab_sab_menuFitness,.categori_sab_sab_menuFitnessNews {
+        display: none;
+        &.active {
+            display: block;
+        }
+    }
+    .categoriTabsImgInterviews.active ,.categoriTabsImgFitness.active,.categoriTabsImgFitnessNews.active {
+        transform: rotate(180deg);
+        transition: 0.5s;
+    }
 }
 
 
