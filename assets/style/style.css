@@ -1215,6 +1215,10 @@ footer {
   width: 100%;
   object-fit: contain;
 }
+.subBlogSection .subBlogItem .blog_sub_textt {
+  font-weight: 300;
+  color: #282828;
+}
 .subContent {
   padding-left: 48px;
 }
@@ -1292,6 +1296,35 @@ footer {
   margin-bottom: 120px;
 }
 .trainWitTose .trainBtn {
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 9px 61px;
+  margin-top: 40px;
+}
+.trainWitTose2 {
+  position: relative;
+  margin-top: 100px;
+  background: url(../img/top_choise.png) top right no-repeat;
+}
+.trainWitTose2 .train_text {
+  padding-top: 15px;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.trainWitTose2 .train_header {
+  font-size: 40px;
+  text-align: left;
+  padding-right: 150px;
+}
+.trainWitTose2 .train_red_text {
+  margin-bottom: 10px;
+}
+.trainWitTose2 .dod {
+  margin-bottom: 120px;
+}
+.trainWitTose2 .trainBtn {
   z-index: 2;
   position: absolute;
   left: 50%;
@@ -1403,6 +1436,17 @@ footer {
     padding: 9px 61px;
     margin-top: 40px;
   }
+  .trainWitTose2 .train_text {
+    padding-top: 28px;
+    margin-bottom: 20px;
+  }
+  .trainWitTose2 .train_header {
+    text-align: left;
+    padding-right: 0px;
+  }
+  .trainWitTose2 .train_red_text {
+    margin-bottom: 10px;
+  }
   .subContent {
     padding-left: 0px;
   }
@@ -1457,6 +1501,20 @@ footer {
     padding: 9px 61px;
     margin-top: 90px;
   }
+  .trainWitTose2 .train_header {
+    font-size: 28px;
+    padding-right: 70px;
+  }
+  .trainWitTose2 .train_red_text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .trainWitTose2 .dod {
+    margin-bottom: 120px;
+  }
+  .trainWitTose2 .trainBtn {
+    width: 60%;
+  }
 }
 @media (max-width: 576px) {
   .popular {
@@ -1501,6 +1559,20 @@ footer {
     padding: 9px 61px;
     margin-top: 90px;
   }
+  .trainWitTose2 .train_header {
+    font-size: 28px;
+    padding-right: 70px;
+  }
+  .trainWitTose2 .train_red_text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .trainWitTose2 .dod {
+    margin-bottom: 120px;
+  }
+  .trainWitTose2 .trainBtn {
+    width: 70%;
+  }
   .olimpia {
     margin-top: 75px;
   }
@@ -1519,4 +1591,57 @@ footer {
   .olimpia .olimpiaContent .OlimpiaLink {
     font-size: 20px;
   }
+}
+.blog_cont {
+  border-bottom: 2px solid #AE3233;
+  padding-bottom: 60px;
+}
+.BlogPostMeinPhotoText {
+  padding-top: 39px;
+  margin-top: 10px;
+  text-align: center;
+}
+.by_those_link {
+  text-decoration: none;
+  color: #282828;
+  background: url(../img/byToseLogo.png) left center no-repeat;
+}
+.by_those_link .by_tose_header {
+  font-size: 18px;
+  font-weight: 300;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.subBlogPostHeader {
+  padding-top: 20px ;
+}
+.tips .blogPostHeader {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 30px;
+  padding-bottom: 8px;
+}
+.tips .red_header {
+  font-size: 20px;
+  font-weight: 500;
+  color: #AE3233;
+  padding-top: 30px;
+}
+.tips .blogPostImg {
+  width: 100%;
+  object-fit: contain;
+  padding-top: 57px;
+  padding-bottom: 40px;
+}
+.subBlogPostSection {
+  margin-top: 20px;
+}
+.subBlogPostItem {
+  width: 33%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.SuBlogPostHead {
+  text-align: left;
+  padding-top: 108px;
 }
