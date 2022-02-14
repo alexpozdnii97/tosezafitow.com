@@ -15,3 +15,9 @@ if (window.matchMedia("(max-width: 992px)").matches) {
      slidesToScroll: 1,
  });
 } 
+
+$(document).ready(function() {
+    $('.tableNav').click(function(event) {
+        $('.sabMenu,.tableOfContentArrow').toggleClass('active')
+    })
+})

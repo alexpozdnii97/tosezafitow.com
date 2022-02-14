@@ -1749,6 +1749,7 @@ footer {
         font-weight: 300;
         padding-left: 50px;
         padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 .subBlogPostHeader {
@@ -1805,6 +1806,9 @@ footer {
     }
 }
 @media (max-width:992px) {
+    .by_tose_header {
+        display: none;
+    }
     .subBlogPostSectionMobile {
         display: block;
     }
@@ -1855,7 +1859,42 @@ footer {
     font-weight: 500;
 }
 
-
+.menu {
+    .tableOfContent {
+        font-size: 24px;
+        color: #AE3233;
+        display: inline;
+    }
+    .tableOfContentArrow {
+        display: inline;
+        float: right;
+    }
+     li {
+        list-style: none;
+    }
+    .sabPointOfMenu {
+        padding-top: 8px;
+    }
+    a {
+        text-decoration: none;
+        color: #282828;
+        font-weight:300;
+    }
+    a:hover {
+        color: #AE3233;
+    }
+    .sabMenu {
+        display: none;
+        line-height: 40px;
+    }
+    .sabMenu.active {
+        display: block;
+    }
+    .tableOfContentArrow.active {
+        transform: rotate(180deg);
+        transition: 0.5s;
+    }
+}
 .maylaAsh {
     border-bottom: 2px solid #AE3233;
     padding-bottom: 60px;
