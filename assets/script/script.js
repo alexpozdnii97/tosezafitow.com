@@ -13,6 +13,7 @@ if (window.matchMedia("(max-width: 992px)").matches) {
      arrows: true,
      slidesToShow: 1,
      slidesToScroll: 1,
+     centerMode: true,
  });
 } 
 
