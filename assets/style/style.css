@@ -72,6 +72,7 @@ a:hover {
   cursor: default;
 }
 .diet_btn {
+  background-color: white;
   margin-top: 30px;
   margin-bottom: 20px;
   padding: 13px 79px;
